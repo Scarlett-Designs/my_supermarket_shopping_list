@@ -203,7 +203,6 @@ class _MyAppState extends State<MyApp> {
           ]),
       drawer: Drawer(
         child: ListView(
-          //padding: EdgeInsets.zero,
           children: <Widget>[
             DrawerHeader(
               child: Align(
@@ -212,7 +211,6 @@ class _MyAppState extends State<MyApp> {
                   'Menu',
                   style: TextStyle(
                     fontSize: 40.0,
-                    //fontWeight: FontWeight.bold,
                     color: Colors.white,
                     letterSpacing: 4,
                   ),
@@ -242,7 +240,7 @@ class _MyAppState extends State<MyApp> {
             ),
             ListTile(
               title: Text(
-                'About Author',
+                'About the Developer',
                 style: TextStyle(
                   fontSize: 20.0,
                 ),
@@ -276,7 +274,7 @@ class AboutAuthor extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color.fromRGBO(15, 48, 87, 1),
-        title: Text("About"),
+        title: Text("About the Developer"),
       ),
       body: SingleChildScrollView(
         child: Container(
