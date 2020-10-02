@@ -331,7 +331,7 @@ class AboutAuthor extends StatelessWidget {
                           color: Color.fromRGBO(231, 231, 222, 0.85),
                           child: ListTile(
                             title: Text(
-                              '"Shanann Thompson is an aspiring Software Engineer.'
+                              '"Shanann Thompson is an aspiring Software Developer.'
                               ' She is a final year Computer Science Major with a concentration in Software Engineering at Northern Caribbean University."',
                               textAlign: TextAlign.center,
                               style: TextStyle(
