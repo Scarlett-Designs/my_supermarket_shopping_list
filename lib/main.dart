@@ -41,6 +41,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomPadding: false,
       appBar: AppBar(
         title: Text("My Supermarket Shopping List"),
         backgroundColor: Color.fromRGBO(15, 48, 87, 1),
