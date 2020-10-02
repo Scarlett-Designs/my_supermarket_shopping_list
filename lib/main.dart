@@ -44,6 +44,7 @@ class _MyAppState extends State<MyApp> {
       appBar: AppBar(
         title: Text("My Supermarket Shopping List"),
         backgroundColor: Color.fromRGBO(15, 48, 87, 1),
+        //navy blue
         iconTheme: IconThemeData(color: Colors.white),
       ),
       body: Column(
